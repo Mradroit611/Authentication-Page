@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-image: url('https://assets-global.website-files.com/61cee6b18e0e207d3f2978a6/65c2723f1aeed4c5a821f5db_decodable%20landing%20page%20main%20bg%20image%20V2.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: black;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-top: 150px;
+    }
+    .oops-text {
+      font-size: 3rem;
+    }
+    .info-text {
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  {{>navbar}}
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="oops-text">OOPS!</h1>
+        <p class="info-text">You are not logged in. Please login first to access this page.</p>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
